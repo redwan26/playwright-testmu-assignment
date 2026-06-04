@@ -1,0 +1,24 @@
+{
+  "name": "lambdatest-playwright-sample",
+  "scripts": {
+    "test": "node playwright-single.js",
+    "test-smartui": "node playwright-smartui.js",
+    "test-parallel": "node playwright-parallel.js",
+    "test-android": "node playwright-android-real-device.js",
+    "test-extension": "node playwright-extensions-test.js",
+    "test-iPhone-emulation": "node playwright-single-on-iphone.js",
+    "test-lighthouse-report": "node playwright-lighthouse-report.js"
+  },
+  "engines": {
+    "node": ">=12.7.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "dotenv": "^17.2.2",
+    "expect": "^30.1.2"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.57.0",
+    "playwright": "^1.57.0"
+  }
+}
